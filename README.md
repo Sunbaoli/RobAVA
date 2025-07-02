@@ -29,11 +29,10 @@ If you have any other questions about the dataset and code, please email [Baoli 
 If this work has been helpful to you, please feel free to cite our paper!
 
 ```
-@inproceedings{liu2022target,
+@inproceedings{sun2025robava,
   title={RobAVA: A Large-scale Dataset and Baseline Towards Video based Robotic Arm Action Understanding},
   author={Baoli Sun, Ning Wang, Xinzhu Ma, Anqi Zou, Yihang Lu, Chuixuan Fan, Zhihui Wang, Kun Lu, Zhiyong Wang},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={5802--5811},
-  year={2022}
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  year={2025}
 }
 ```

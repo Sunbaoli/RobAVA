@@ -7,6 +7,17 @@ This is the official repository for <br/>***[ICCV2025] 'RobAVA: A Large-scale Da
 <br/>**Baoli Sun, Ning Wang, Xinzhu Ma, Anqi Zou, Yihang Lu, Chuixuan Fan, Zhihui Wang*, Kun Lu, Zhiyong Wang**
 <br/>*Dalian University of Technology, Dalian, The Chinese University of Hong Kong, The University of Sydney*
 
+## 📖 Introduction
+Understanding the behaviors of robotic arms is essential for various robotic applications such as logistics management, precision agriculture, and automated manufacturing. 
+However, the lack of large-scale and diverse datasets significantly hinders progress in video-based robotic arm action understanding, highlighting the need for collecting a new large-scale dataset.
+In particular, our RobAVA contains ~40k video sequences with video-level fine-grained annotations,
+covering basic actions such as picking, pushing, and placing, as well as their combinations in different orders and interactions with various objects.
+Distinguished to existing action recognition benchmarks, RobAVA includes instances of both normal and anomalous executions for each action category. 
+Our further analysis reveals that the primary challenge in robotic arm action recognition lies in the fact that a complete action consists of a sequence of fundamental, atomic behaviors, requiring models to learn the inter-relationships among them.
+To this end, we propose a novel  baseline approach, AGPT-Net, which re-defines the problem of understanding robotic arm actions as a task of aligning video sequences with atomic attributes.
+To enhance AGPT-Net's ability to distinguish normal and anomalous action instances, we introduce a joint semantic space constraint between category and attribute semantics, thereby amplifying the separation between normal and anomalous attribute representations for each action.
+We conduct extensive experiments to demonstrate AGPT-Net’s superiority over other mainstream recognition models. 
+
 
 <h2> <p align="center"> RobAVA Dataset </p> </h2>  
 

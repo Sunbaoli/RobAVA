@@ -17,6 +17,20 @@ This is the official repository for <br/>***[ICCV2025] 'RobAVA: A Large-scale Da
 - [Google Drive](https://drive.google.com/xxx)
 - [Baidu Yun](https://pan.baidu.com/xxx)
 
+### Data Preparation
+
+We provide our labels in `data_list`.
+
+After all the videos were downloaded, prepare the csv files for training, validation, and testing set as `train.csv`, `val.csv`, `test.csv` in `data_list/robava_s`. The format of the csv file is:
+
+```
+path_to_video_1,action_label_1,abnormal_label
+path_to_video_2,action_label_2,abnormal_label
+path_to_video_3,action_label_3,abnormal_label
+...
+path_to_video_N,action_label_N,abnormal_label
+```
+
 
 
 <h2> <p align="center"> AGPT-Net </p> </h2> 

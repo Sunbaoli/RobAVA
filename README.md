@@ -1,6 +1,8 @@
 # RobAVA
 All about RobAVA: data, models, and more... keep starring and stay tuned!
 
+![](data1.png)
+
 This is the official repository for <br/>***[ICCV2025] 'RobAVA: A Large-scale Dataset and Baseline Towards Video based Robotic Arm Action Understanding***
 <br/>**Baoli Sun, Ning Wang, Xinzhu Ma, Anqi Zou, Yihang Lu, Chuixuan Fan, Zhihui Wang*, Kun Lu, Zhiyong Wang**
 <br/>*Dalian University of Technology, Dalian, The Chinese University of Hong Kong, The University of Sydney*
